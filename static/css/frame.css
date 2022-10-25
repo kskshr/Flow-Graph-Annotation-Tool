@@ -1,0 +1,100 @@
+.F {
+    background-color: #87cefa;
+}
+
+.T {
+    background-color: #90ee90;
+}
+
+.D {
+    background-color: #df80ff;
+}
+
+.Q {
+    background-color: #ffbf00;
+}
+
+.Ac {
+    background-color: #ff6666;
+}
+
+.Af {
+    background-color: #fd7ca2;
+}
+
+.Sf {
+    background-color: #ffaa80;
+}
+
+.St {
+    background-color: #999999;
+}
+
+.node_selected {
+    background-color: lime;
+}
+
+.node_registered_before {
+    background-color: dodgerblue;
+}
+
+.node_registered_after {
+    background-color: crimson;
+}
+
+.container {
+    height: auto;
+    width: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.container_action {
+    height: auto;
+    width: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.container_vertical {
+    height: 850px;
+    width: auto;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+.container_vertical_small {
+    height: 400px;
+    width: auto;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+
+img {
+    white-space: nowrap;
+    padding: 5px;
+    height: 225px;
+    width: 225px;
+    flex-flow: 1;
+}
+
+video {
+    width: 30%;
+    height: 30%;
+}
+
+.named_entities {
+    margin-bottom: 50px;
+}
+
+.jump {
+    margin-bottom: 20px;
+}
+
+.panel > .panel-heading {
+    color: white;
+    background-color: firebrick;
+}
+

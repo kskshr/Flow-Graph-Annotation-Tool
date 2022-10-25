@@ -1,0 +1,5 @@
+opencv-python
+kytea
+jaconv
+tokenizers
+flask

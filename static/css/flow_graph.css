@@ -1,0 +1,52 @@
+.F {
+    background-color: #87cefa;
+}
+
+.T {
+    background-color: #90ee90;
+}
+
+.D {
+    background-color: #df80ff;
+}
+
+.Q {
+    background-color: #ffbf00;
+}
+
+.Ac {
+    background-color: #ff6666;
+}
+
+.Af {
+    background-color: #fd7ca2;
+}
+
+.Sf {
+    background-color: #ffaa80;
+}
+
+.St {
+    background-color: #999999;
+}
+
+.node_start {
+    background-color: lime;
+}
+
+.node_end {
+    background-color: lime;
+}
+
+.named_entities {
+    margin-bottom: 50px;
+}
+
+.jump {
+    margin-bottom: 20px;
+}
+
+.panel > .panel-heading {
+    color: white;
+    background-color: navy;
+}

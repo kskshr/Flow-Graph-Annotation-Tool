@@ -3,9 +3,11 @@ This repository provides the implementation for flow graph annotation used in [1
 
 ## Usage
 1. Download and preprocess sample recipes.
+
 $ zsh ./scripts/download_samples.zsh
 
 2. Run the application.
+
 $ python app.py --recipe_path ./data/recipes.json --database_path ./data/annotation.db --port 44444
 
 ## Citation

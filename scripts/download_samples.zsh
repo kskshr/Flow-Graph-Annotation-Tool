@@ -10,11 +10,11 @@ for f in https://www.kurashiru.com/recipes/418eaa1a-815c-4747-b1d5-835e49bb0f4b 
     mkdir -p ${d}
 
     wget ${f} -O ${d}/source.txt
-    sleep 3s
+    sleep 5s
 
     video_url=$(cat ${d}/source.txt | grep -Eo "https[^ ]*mp4" | head -n1)
     wget ${video_url} -O ${d}/video.mp4
-    sleep 3s
+    sleep 5s
 
     mkdir -p ${d}/frames
     python scripts/sample_frames.py ${d}

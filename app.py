@@ -361,7 +361,7 @@ def save_annotation():
     annotated_frames = []
     for action_id in sorted(annotation["frame_annotations"].keys()):
         ann_frames = annotation["frame_annotations"][action_id]
-        annotated_frames  += [[action_id, ann_frames["before"], ann_frames["after"]]]
+        annotated_frames  += [[action_id.rsplit("-", 1)[0], ann_frames["before"], ann_frames["after"]]]
 
     return render_template(
         "save.html",

@@ -97,8 +97,8 @@ if __name__ == "__main__":
              open("{}/ingredients.tok".format(recipe_dir), "w") as fw2:
 
             for line in parser.ingredients:
-                line = normalizer.normalize_str(line).replace("　", "")
-                line = jaconv.h2z(line, digit=True, ascii=True)
+                line = normalizer.normalize_str(line)
+                line = jaconv.h2z(line, digit=True, ascii=True).replace("　", "")
 
                 fw1.write(line + "\n")
                 fw2.write(" ".join([w for w in kytea.getWS(line)]).replace("　 ", "") + "\n")
@@ -107,8 +107,8 @@ if __name__ == "__main__":
              open("{}/instructions.tok".format(recipe_dir), "w") as fw2:
 
             for line in parser.instructions:
-                line = normalizer.normalize_str(line).replace("　", "")
-                line = jaconv.h2z(line, digit=True, ascii=True)
+                line = normalizer.normalize_str(line)
+                line = jaconv.h2z(line, digit=True, ascii=True).replace("　", "")
 
                 fw1.write(line + "\n")
                 fw2.write(" ".join([w for w in kytea.getWS(line)]).replace("　 ", "") + "\n")

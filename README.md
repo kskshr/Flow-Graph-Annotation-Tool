@@ -11,6 +11,7 @@ $ zsh ./scripts/download_samples.zsh
 ~~~
 $ python app.py --recipe_path ./data/recipes.json --database_path ./data/annotation.db --port 44444
 ~~~
+You can now access the annotation interface by going to `http://localhost:44444` in your browser.
 
 ## Citation
 ```
